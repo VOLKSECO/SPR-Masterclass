@@ -54,8 +54,6 @@ Le recyclage du plastique standard nécessite plusieurs étapes pour être effic
 
    Dans le processus de recyclage de plastique standard, certaines étapes nécessitent des machines électriques, ce qui vous rend dépendant du réseau. De plus, la fonte du plastique pour injection est très énergivore.
 
-**La façon la plus écologique de recycler le plastique.**
-
 ## Recyclage de plastique Solaire Off-Grid
 
 Le processus de recyclage solaire du plastique est le moyen le plus écologique de recycler le plastique. Le processus Sun Factory ne nécessite pas d'électricité.
@@ -78,6 +76,8 @@ Le processus de recyclage solaire du plastique est le moyen le plus écologique 
    La température du plastique doit être surveillée avec une sonde électronique.
 7. **Injection \[Manuelle\]** 🖐️🛠️  
    Le plastique fondu est transféré de la cartouche dans le moule par une presse manuelle, donnant au plastique recyclé une  nouvelle forme.
+   
+**La façon la plus écologique de recycler le plastique.**
 
 ## Recyclage de plastiques solaire vs standard
 
