@@ -1,0 +1,304 @@
+/* Modern and clean style inspired by openbusiness.world - Mode Clair */
+body {
+  font-family: 'Roboto', 'Open Sans', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa; /* Fond clair */
+  color: #333; /* Texte sombre pour contraste */
+  line-height: 1.6;
+}
+
+/* En-tête */
+header {
+  background-color: #fff; /* Fond blanc pour le header */
+  color: #007bff; /* Accent bleu vif pour le texte du header */
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombre subtile */
+  position: relative;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 32px; /* 2em ≈ 32px avec font-size de base 16px */
+  font-weight: 700;
+  color: #003087; /* Bleu foncé */
+}
+
+header p {
+  margin: 5px 0 0;
+  font-size: 16px;
+  color: #666; /* Gris moyen pour le sous-titre */
+}
+
+/* Conteneur principal */
+main {
+  max-width: 1200px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+/* Navigation (sélecteurs) */
+nav {
+  background-color: #fff; /* Fond blanc */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  margin-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: flex-end;
+}
+
+nav label {
+  font-weight: 600;
+  color: #007bff; /* Texte bleu vif pour les labels */
+  margin-bottom: 5px;
+}
+
+nav select {
+  width: 100%;
+  padding: 15px 20px;
+  border: 2px solid #ddd; /* Bordure claire */
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: #007bff; /* Fond bleu vif */
+  color: #fff; /* Texte blanc */
+  font-weight: 600;
+  text-align: center;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+nav select:hover {
+  background-color: #0056b3; /* Bleu plus foncé au survol */
+  border-color: #007bff;
+  box-shadow: 0 4px 8px rgba(0, 123, 255, 0.4);
+}
+
+nav select:focus {
+  outline: none;
+  background-color: #004085; /* Bleu très foncé au focus */
+  border-color: #003057;
+  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.5);
+}
+
+/* Contenu */
+section#content {
+  background-color: #fff; /* Fond blanc */
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* Pied de page */
+footer {
+  background-color: #fff;
+  padding: 20px 25px;
+  margin-top: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  text-align: left;
+}
+
+footer h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #0044cc; /* Bleu moyen-foncé, cohérent avec les h2 */
+  margin: 0 0 20px;
+  text-align: left; /* Aligné à gauche pour cohérence */
+}
+
+footer h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #0066ff; /* Bleu moyen, cohérent avec les h3 */
+  margin: 15px 0 10px;
+  text-align: left; /* Aligné à gauche */
+}
+
+footer ul {
+  list-style: none;
+  padding: 0 0 0 15px; /* Légère indentation pour la hiérarchie */
+  margin: 0;
+}
+
+footer li {
+  margin-bottom: 8px;
+}
+
+footer a {
+  color: #007bff; /* Bleu vif, cohérent avec les liens */
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400; /* Poids normal pour les chapitres */
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: #0056b3; /* Bleu foncé au survol */
+}
+
+/* Titres avec hiérarchie alignée sur Nextcloud */
+h1 {
+  font-size: 32px; /* 2em ≈ 32px */
+  font-weight: 700;
+  color: #003087; /* Bleu foncé */
+  margin: 0 0 5px; /* Espace réduit, pas de retour forcé */
+}
+
+h2 {
+  text-align: center;
+  font-size: 24px; /* 1.5em ≈ 24px */
+  font-weight: 600;
+  color: #0044cc; /* Bleu moyen-foncé */
+  margin: 0 0 5px; /* Espace réduit */
+}
+
+h3 {
+  text-align: center;
+  font-size: 18px; /* 1.17em ≈ 18.72px */
+  font-weight: 700;
+  color: #0066ff; /* Bleu moyen */
+  margin: 0 0 5px; /* Espace réduit */
+}
+
+h4 {
+  text-align: center;
+  font-size: 16px; /* 1em ≈ 16px */
+  font-weight: 500;
+  color: #3399ff; /* Bleu clair */
+  margin: 0 0 5px; /* Espace réduit */
+}
+
+h5 {
+  font-size: 16px; /* 1em ≈ 16px */
+  font-weight: 500;
+  color: #6bb5ff; /* Bleu clair */
+  margin: 0 0 5px; /* Espace réduit */
+}
+
+#chapter-content {
+  font-size: 16px;
+  white-space: pre-wrap; /* Respecte les espaces et retours à la ligne */
+  text-align: justify; /* Texte justifié */
+}
+
+/* Styles pour les éléments générés par Markdown */
+#chapter-content p {
+  margin-bottom: 20px; /* Espacement entre paragraphes maintenu */
+  line-height: 1.6; /* Réduit légèrement pour compacité */
+}
+
+/* Supprimer l'espace supplémentaire après les titres */
+#chapter-content h1,
+#chapter-content h2,
+#chapter-content h3,
+#chapter-content h4 {
+  margin-bottom: 5px; /* Harmonisé avec les titres globaux */
+}
+
+/* Éviter les retours à la ligne forcés après les titres */
+#chapter-content p:first-child {
+  margin-top: 0; /* Supprime l'espace en haut du premier paragraphe */
+}
+
+#chapter-content a {
+  color: #007bff; /* Liens bleus */
+  text-decoration: none;
+}
+
+#chapter-content a:hover {
+  text-decoration: underline;
+  color: #0056b3; /* Bleu foncé au survol */
+}
+
+#chapter-content img {
+  max-width: 75%; /* Limite la largeur à 75% du conteneur */
+  height: auto; /* Maintient le rapport d'aspect */
+  margin: 15px auto; /* Centre horizontalement avec marge verticale */
+  border-radius: 8px; /* Coins arrondis pour une apparence moderne */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombre subtile pour les images */
+  display: block; /* Nécessaire pour le centrage avec margin auto */
+}
+
+/* Style pour les vidéos YouTube */
+#chapter-content iframe {
+  max-width: 100%;
+  width: 560px;
+  height: 315px;
+  margin: 15px auto; /* Centre les iframes */
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: block; /* Centre avec margin auto */
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  nav {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  nav select {
+    width: 100%;
+  }
+
+  section#content {
+    padding: 15px;
+  }
+
+  footer {
+    padding: 15px;
+  }
+
+  footer h2 {
+    font-size: 20px;
+  }
+
+  footer h3 {
+    font-size: 16px;
+  }
+
+  footer a {
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 28px;
+    margin-bottom: 4px;
+  }
+
+  h2 {
+    font-size: 20px;
+    margin-bottom: 4px;
+  }
+
+  h3 {
+    font-size: 16px;
+    margin-bottom: 4px;
+  }
+
+  h4 {
+    font-size: 14px;
+    margin-bottom: 4px;
+  }
+
+  #chapter-content {
+    font-size: 14px;
+  }
+
+  #chapter-content img {
+    max-width: 100%; /* Adapte la taille à l’écran sur mobile */
+    height: auto;
+  }
+
+  #chapter-content iframe {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9; /* Maintient le ratio 16:9 */
+  }
+}
